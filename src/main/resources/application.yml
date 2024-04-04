@@ -1,0 +1,7 @@
+server:
+  port: 9000
+spring:
+  cassandra:
+    keyspace-name: user_identity
+    schema-action: recreate
+    local-datacenter: datacenter1
